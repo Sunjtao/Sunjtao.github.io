@@ -1,0 +1,30 @@
+{
+  "name": "@stonesun/postcss-any2rem",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "sjtao <305199369@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/"
+  },
+  "scripts": {
+    "serve": "yarn link",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "eslint": "^5.16.0",
+    "postcss": "^7.0.24",
+    "postcss-plugin-px2rem": "^0.8.1"
+  }
+}

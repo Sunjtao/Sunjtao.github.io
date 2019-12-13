@@ -1,0 +1,17 @@
+{
+  "name": "main-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vuepress dev docs -p 3000",
+    "build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress": "^1.2.0"
+  }
+}

@@ -1,0 +1,54 @@
+@font-face {font-family: "iconfont";
+  src: url('../font/iconfont.eot?t=1555467468494'); /* IE9 */
+  src: url('../font/iconfont.eot?t=1555467468494#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOEAAsAAAAAB2AAAAM1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCfgqCUIIlATYCJAMMCwgABCAFhG0HNhtjBsiusCnDvcgGA4UQHVt4W/GP/4RvjiL42g/dd3dBdIlCtIAaSMiouEwkypZVI3xbyarCAlqC8ZX/J736OSh7xhxKmcFLNruezFlfZNG4IisSNuAoSAKgQXzYgAtsAdiWZcMLcDdHrlp9nsvp3U5wfqAc17Ix9/OjXoBxQAHtjUdtC7hAEvSGsQta4mkCjfpFstgormxE9gpzUiCOZYlF9pmoorBCvVBbsbKI+1CfbqQ7uBd8P/6ZC3uSmsycuX1UJKDcn14/vfNkxTyCZjo32DoyJiCFOKz0brOKshOsNKpZawPQtgYFP72rip9ennqzf3iERNQy65vBCMwlfno5ZpemgSIkkEEtCo4gZ5DtfkoWg/6uPiMWzJPXgWXnm6S2y+9CYtPDZUc80YYNjPPNBxY2V9cq1fWjqWNdVwG7Yx49yirt7msR9xtvv3L3/S6PLj+u3d+w9eBxn47txxjHm49PqiRp8zbvTQc8hQ0bPNFGLy/YeNBn83Zvz3t13Fgz0PC+YWDNx6Dn//KD853/+6LxY6Mjed/0hje+6I+o6LZN5CuDcpXJlkVD9Y7ckTL75P2Fp/U9+ROrw8qq3IptXTZx0buIyZsh/3+KTrLEHW4O3gJ4I7jo23o95OO1/deXziV02TF1A7pwn2vf32UE9UKokt/kHpR3+pC7/8NvvLRb8btHmb/rVQV8fv4dGKlcUHe7+jP1BW9d07GpaDbYUhS1ozb82dZdZBIatYAKM9jp5XDtPao9f72eBEmdPmT1BsjCTqBGkwXUqreMRuNK1jfpQliJ0oAxcwCh3WkkrV4ha3eXLOwL1Oj1GbXawwqNDsNjxyZDITMFBFgKAuaGsMwbDaLtoEzYWA9Sn44laV0gbQaiyAkcFx2bL5SAAcgUc5R+KZ5SEYvEqMfF4DzQ6YzYRIwa4Gm0mlJTekyMWHWhaN6oR4x1BGBRQIBxhmAynpGB6LWnmMLn6wFJHx0WaRBUVZsBQiF3j8WJFtuBLDEbOgluRYyinyQeRYkwEWGkhxUDN9BZWSPMVD1MA/CoaOoBaZN0MaiV2NUcvbxV/347oJF5WI4UOYqaEzVLwJpjeS1CAAAA') format('woff2'),
+  url('../font/iconfont.woff?t=1555467468494') format('woff'),
+  url('../font/iconfont.ttf?t=1555467468494') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('../font/iconfont.svg?t=1555467468494#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.bld-icon {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bld-icon-share:before {
+  content: "\e615";
+}
+
+.bld-icon-back:before {
+  content: "\e616";
+}
+
+@font-face {font-family: "bffont";
+  src: url('../font/bffont.ttf')
+}
+
+.bficon {
+  font-family:"bffont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bficon-search:before { content: "\e604"; }
+.bficon-more:before { content: "\e601"; }
+.bficon-back:before { content: "\e600"; }
+.bficon-field-error:before { content: "\e605"; }
+.bficon-field-warning:before { content: "\e608"; }
+.bficon-success:before { content: "\e602"; }
+.bficon-field-success:before { content: "\e609"; }
+.bficon-go {
+  &::before {
+    content: "\e600";
+  }
+  transform: rotate(180deg);
+  transform-origin: center center;
+  display: inline-block;
+}
+

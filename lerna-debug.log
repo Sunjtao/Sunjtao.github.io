@@ -1,0 +1,18 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: 'gpnote',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '3.19.0',
+0 silly argv   '$0': 'C:\\nodejs\\node_modules\\lerna\\cli.js',
+0 silly argv   pkg: 'axios'
+0 silly argv }
+1 notice cli v3.19.0
+2 verbose rootPath C:\work\me-code
+3 info versioning independent
+4 error FetchError: request to http://npm.blackfi.sh/axios failed, reason: getaddrinfo ENOTFOUND npm.blackfi.sh
+4 error     at ClientRequest.<anonymous> (C:\Users\jiangtaosun\AppData\Roaming\nvm\v12.13.1\node_modules\lerna\node_modules\_node-fetch-npm@2.0.2@node-fetch-npm\src\index.js:68:14)
+4 error     at ClientRequest.emit (events.js:210:5)
+4 error     at Socket.socketErrorListener (_http_client.js:406:9)
+4 error     at Socket.emit (events.js:210:5)
+4 error     at emitErrorNT (internal/streams/destroy.js:92:8)
+4 error     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
